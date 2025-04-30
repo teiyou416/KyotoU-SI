@@ -1,0 +1,30 @@
+首先是第一道基础题，可以看到可能会考的基础范围很广泛，从HTML XML到kd木 再到信息检索模型、信息检索评价、相关反馈与查询扩展，但实际上，第一章第二章在社情考试改版之后已经再没有考过了，我和上岸佬猜测是因为其他地方考过了，反正我当初没有看第一章第二章的东西。
+
+第三章，信息检索模型，重头戏。常考的信息检索模型有如下几个，一个个全弄明白。一般来说，针对一个信息检索模型，他的四元组要弄明白[D、Q、F、R(qi,dj)]。
+
+D——文档集的表示
+Q——查询集合的表示
+F——模型框架
+R——排序函数
+除此之外，优缺点，VSM与BIM的相同点不同点，扩展布尔模型对布尔模型/vsm的提升都是常考点。
+
+boolean model, fuzzy set model, extended boolean model, Vector space model(VSM), Binary independence model(BIM), Okapi BM25, Language model, Query likelihood, Latent semantic indexing(LSI).
+
+第四章，信息检索评价。与上面一样，将每个评价标准搞明白就可以了，没什么好说的。
+
+一般来说，信息检索中评价的东西只有三个：Efficiency/Effectiveness/Coverage，所以一个评价尺标的好坏一般是用这三个维度定义的。
+
+precision, recall, F-measure/ Balanced F-measure, precision-recall curve, MAP, R-Precision, Precision@N, nDCG, MRR, ERR, MMR, 顺位相关系数
+
+第五章，相关反馈与查询扩展，其实这个东西我直接放在信息检索模型里面一起复习了，虽然他不是信息检索模型，但目标也是帮助信息检索更加合适。
+
+相关反馈分为显式相关反馈、隐式相关反馈以及伪相关反馈。其中针对VSM的rocchio算法往年也考过。
+
+概念题大概就是上述的东西了，逃不出这个范围。
+
+其次：Pagerank/HITS，两个都是基础算法了，网上有无限多的网页介绍。实在弄不清楚的就去看作者原论文，记得HITS一定要normalization）
+
+最后：复杂网络，这道题国内的复习资料非常少，我只找到有限的几个博客。我大概总结一下神秘资料中的考点。
+
+基础：图论，图的设计，图的类型总结（简单图，基础图，定向图，平凡图.....）随便找本图论的书看一下第一章就可以了。
+
